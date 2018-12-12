@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Steps to approve and fulfill NeedIt requests.</description>
+        <internal_name>steps_to_approve_and_fulfill_needit_requests.</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"231944e6-923b-4cbd-a7e1-4f39f5c660e7.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"231944e6-923b-4cbd-a7e1-4f39f5c660e7.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"9834f6c6-7ce6-44ac-a08c-5cea464f4319.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current.state","label":"Trigger➛NeedIt Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"state"},{"name":"8f1f475a-be91-4d37-a8d0-b7e89a336e06.record","label":"3.1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"8f1f475a-be91-4d37-a8d0-b7e89a336e06.table_name","label":"3.1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"2e077661-5ef0-455b-a689-e3a50f80195a.Record","label":"3.2.1➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"2e077661-5ef0-455b-a689-e3a50f80195a.Table","label":"3.2.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"068fae94-685d-4bed-87e8-bde7f7cc90aa.Record","label":"3.2.1➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"068fae94-685d-4bed-87e8-bde7f7cc90aa.Table","label":"3.2.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.u_when_needed","label":"Trigger➛NeedIt Record➛When needed","reference":"","reference_display":"When needed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit","column_name":"u_when_needed"}]</label_cache>
+        <latest_snapshot>faa76cd5db122300b8fea08a48961904</latest_snapshot>
+        <master_snapshot>e977a8d5db122300b8fea08a48961922</master_snapshot>
+        <name>Needit Fulfillment</name>
+        <outputs/>
+        <remote_trigger_id>6177a8d5db122300b8fea08a48961968</remote_trigger_id>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-09 14:51:29</sys_created_on>
+        <sys_id>0c056851db122300b8fea08a48961926</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Needit Fulfillment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_0c056851db122300b8fea08a48961926</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2018-12-09 16:37:05</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0c056851db122300b8fea08a48961926"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0c056851db122300b8fea08a48961926"/>
+</record_update>
